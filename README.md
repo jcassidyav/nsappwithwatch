@@ -9,6 +9,7 @@ If you launch the phone app and the watch app you can click the "Send Message To
 
 I wanted a cli based build that I can build with iOS App Development profiles to put on various test devices.
 
+To do the same you will need to change the app id in nativescript.config.ts and have 3 corresponding profiles for the app, watch app and extension.
 
 ## Extras Vs https://docs.nativescript.org/environment-setup.html#building-for-smart-watches
 

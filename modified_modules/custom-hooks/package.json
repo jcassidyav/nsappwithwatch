@@ -1,0 +1,24 @@
+{
+  "name": "custom-hooks",
+  "version": "1.0.1",
+  "description": "nativescript hooks for the local project",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "preuninstall": "node preuninstall.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "nativescript": {
+    "hooks": [
+      {
+        "type": "after-prepare",
+        "script": "lib/modify-generated-project.js",
+        "inject": true
+      }
+    ]
+  },
+  "dependencies": {
+    "@nativescript/hook": "^2.0.0"
+  }
+}

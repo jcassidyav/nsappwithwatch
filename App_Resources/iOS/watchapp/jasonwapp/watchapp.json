@@ -1,0 +1,8 @@
+{
+    "assetcatalogCompilerAppiconName": "AppIcon",
+    "targetBuildConfigurationProperties": {
+        "WATCHOS_DEPLOYMENT_TARGET": 7.0,
+        "SUPPORTED_PLATFORMS": "\"watchsimulator watchos\"",
+        "LD": "\"\""
+    }
+}

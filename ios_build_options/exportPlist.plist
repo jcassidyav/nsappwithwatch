@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>method</key>
+    <string>development</string>
+    <key>teamID</key>
+    <string>THE TEAM ID</string>
+    <key>signingStyle</key>
+    <string>manual</string>
+    <key>provisioningProfiles</key>
+    <dict>
+        <key>MY_APP_BUNDLE_ID</key>
+        <string>MY_PROFILE_NAME_AS_SHOWN_BY_XCODE or UUID_FOUND_IN_MOBILEPROVISION_FILE</string>
+        <key>MY_WATCHAPP_BUNDLE_ID</key>
+        <string>MY_PROFILE_NAME_AS_SHOWN_BY_XCODE or UUID_FOUND_IN_MOBILEPROVISION_FILE</string>
+        <key>MY_WATCHAPP_EXTENSION_BUNDLE_ID</key>
+        <string>MY_PROFILE_NAME_AS_SHOWN_BY_XCODE or UUID_FOUND_IN_MOBILEPROVISION_FILE</string>
+        
+    </dict>
+
+</dict>
+</plist>

@@ -26,7 +26,7 @@ nsappwithwatch = whatever the directory it is checked out to is named.
        Checking ``` config.ast.value.get("buildSettings").get("SDKROOT") ``` in pbxproj-dom/xcode.ts could decide to set the sdk
 
 1. run archive
-   ```xcodebuild -workspace platforms/ios/nsappwithwatch.xcworkspace -scheme nsappwithwatch archive DEVELOPMENT_TEAM=<TEAM ID> -archivePath builds/MyApp.xcarchive```
+   ```xcodebuild -workspace platforms/ios/nsappwithwatch.xcworkspace -scheme nsappwithwatch archive DEVELOPMENT_TEAM=<TEAM ID> -archivePath builds/MyApp.xcarchive -allowProvisioningUpdates```
 2. run export ( the exportPlist.plist need to be edited for your profile uuids etc.)
    ```xcodebuild -exportArchive -exportOptionsPlist ios_build_options/exportPlist.plist -archivePath builds/MyApp.xcarchive -exportPath builds/out```
    

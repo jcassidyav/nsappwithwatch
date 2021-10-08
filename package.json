@@ -24,6 +24,7 @@
     "@nativescript/types": "~8.1.1",
     "@nativescript/webpack": "~5.0.0",
     "@ngtools/webpack": "^12.2.0",
+    "custom-hooks": "file:modified_modules/custom-hooks",
     "typescript": "~4.3.5"
   }
 }

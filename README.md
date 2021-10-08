@@ -11,6 +11,8 @@ I wanted a cli based build that I can build with iOS App Development profiles to
 
 To do the same you will need to change the app id in nativescript.config.ts and have 3 corresponding profiles for the app, watch app and extension.
 
+And modify ios_build_options/exportPlist.plist to match.
+
 ## Extras Vs https://docs.nativescript.org/environment-setup.html#building-for-smart-watches
 
 see additions to 

@@ -5,13 +5,18 @@ The app demonstrates communication from the phone app to the watch.
 
 If you launch the phone app and the watch app you can click the "Send Message To Phone" button and should see the number on the screen change in sync.
 
+## Building scenario
+
+I wanted a cli based build that I can build with iOS App Development profiles to put on various test devices.
+
+
 ## Extras Vs https://docs.nativescript.org/environment-setup.html#building-for-smart-watches
 
 see additions to 
 * App_Resources/iOS/watchextension/jasonwapp%20Extension/extension.json
 * App_Resources/iOS/watchapp/jasonwapp/watchapp.json
 
-xcode 13 does not generate the info.plist for the watch apps so extra work would have to be done to add them manually. ( I used 12.5)
+xcode 13 does not generate the info.plist for the watch apps so extra work would have to be done to add them manually. ( I used 12.5 to generate)
 
 ## Building
 
@@ -66,6 +71,6 @@ I don't think building/signing will work with ns because of the exportOptions is
 
 ## Versions
 * ns 8.1.3
-* xcode 12.5 ( building also works with 13)
+* xcode 13 
 
 Downgrade the watch simulator os to 7.0 ( there is a bug in the latest watch os simulator that the communication from app to watch does not work and fails sliently)

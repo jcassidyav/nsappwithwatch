@@ -1,5 +1,5 @@
 
-A NS app with an associated watchos app.
+## A NativeScript app with an associated watchos app.
 
 The app demonstrates communication from the phone app to the watch.
 
